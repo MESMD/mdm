@@ -8,7 +8,7 @@
 echo "Installing Homebrew package manager"
 echo "Also installs Xcode Command Line Tools" 
 
-bash <(curl -fsSL https://raw.githubusercontent.com/ca-mmis/jamf-macos-scripts/master/scripts/SplashBuddy/installHomebrew.sh)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)")
 
 ## declare an array variable
 declare -a arr=("brew install zsh cjbassi/gotop/gotop htop ctop sf-pwgen curl wget tree vim tmux" 
