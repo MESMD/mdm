@@ -3,4 +3,6 @@ Scripts, configuration and information for MacBook hardware and software deploym
 
 To run the install script:
 
-`bash <(curl -fsSL https://raw.githubusercontent.com/MESMD/mdm/main/install)`
+`./install.sh`
+
+
